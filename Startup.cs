@@ -24,6 +24,7 @@ namespace BasicAspNet
             app.UseWelcomePage();
             
             //Added comment
+            //Added more comment
         }
     }
 }
