@@ -22,6 +22,8 @@ namespace BasicAspNet
             app.UseMvcWithDefaultRoute();
 
             app.UseWelcomePage();
+            
+            //Added comment
         }
     }
 }
