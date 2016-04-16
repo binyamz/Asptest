@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies>
+  <assembly name="BasicAspNet.dll" environment="64-bit .NET (unknown version) [collection-per-class, parallel (8 threads)]" test-framework="xUnit.net 2.1.0.3179" run-date="2016-04-16" run-time="15:35:28" total="2" passed="1" failed="1" skipped="0" time="0.359" errors="0">
+    <errors />
+    <collection total="2" passed="1" failed="1" skipped="0" name="Test collection for BasicAspNet.Test.XunitTest" time="0.023">
+      <test name="BasicAspNet.Test.XunitTest.PassingTest" type="BasicAspNet.Test.XunitTest" method="PassingTest" time="0.0100422" result="Pass" />
+      <test name="BasicAspNet.Test.XunitTest.FailingTest" type="BasicAspNet.Test.XunitTest" method="FailingTest" time="0.0133506" result="Fail">
+        <failure exception-type="Xunit.Sdk.EqualException">
+          <message><![CDATA[Assert.Equal() Failure
+Expected: 5
+Actual:   4]]></message>
+          <stack-trace><![CDATA[   at BasicAspNet.Test.XunitTest.FailingTest()]]></stack-trace>
+        </failure>
+      </test>
+    </collection>
+  </assembly>
+</assemblies>
